@@ -17,11 +17,11 @@ BOT_ID = getenv("BOT_ID")
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","its_innocent_boy_2926")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "NAKSH_X_MUSICBOT")
+BOT_USERNAME = getenv("BOT_USERNAME" , "@Suffer_MusicBot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "NAKSH")
+BOT_NAME = getenv("BOT_NAME" , "Suffer")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "Naksh_x_assistant")
+ASSUSERNAME = getenv("ASSUSERNAME" , "suffer_assistant")
 # ---------------------------------------------------------
 
 
@@ -57,7 +57,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 SOURCE = getenv("SOURCE", "https://github.com/innocypapatop/VIP_INNOCENT_MUSIC")
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/innocypapatop/VIP_INNOCENT_MUSIC",
+    "https://github.com/allclonerrepo/VIP_INNOCENT_MUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "INNOCENT")
 GIT_TOKEN = getenv(
