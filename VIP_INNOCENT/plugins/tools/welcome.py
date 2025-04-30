@@ -4,7 +4,7 @@ from pyrogram import *
 from pyrogram.types import *
 from logging import getLogger
 from VIP_INNOCENT import app
-import config
+from config import *
 
 LOGGER = getLogger(__name__)
 
@@ -95,7 +95,7 @@ async def greet_group(_, member: ChatMemberUpdated):
 ๏ 𝐌𝐀𝐃𝐄 𝐁𝐘 ➠ [𝑰𝒏𝒏𝒐𝒄𝒆𝒏𝒕](https://t.me/{config.OWNER_USERNAME})
 ➖➖➖➖➖➖➖➖➖➖➖
 """,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"⦿ ᴀᴅᴅ ᴍᴇ ⦿", url=f"https://t.me/Sustumm_music_bot?startgroup=true")]])
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"⦿ ᴀᴅᴅ ᴍᴇ ⦿", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")]])
         )
     except Exception as e:
         LOGGER.error(e)
